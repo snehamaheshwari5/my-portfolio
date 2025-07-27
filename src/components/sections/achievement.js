@@ -10,8 +10,11 @@ const Section = styled.section`
 
 const AchievementsWrapper = styled.div`
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   gap: 40px;
+  width: 100%;
+  justify-content: flex-start;
   @media (max-width: 900px) {
     flex-direction: column;
     gap: 32px;
@@ -25,6 +28,10 @@ const Part = styled.div`
   box-shadow: 0 4px 24px rgba(0,0,0,0.08);
   border: 1.5px solid var(--lightest-navy);
   min-width: 300px;
+  flex: 1 1 0;
+  @media (max-width: 900px) {
+    flex: unset;
+  }
   @media (max-width: 600px) {
     padding: 20px 14px;
   }
