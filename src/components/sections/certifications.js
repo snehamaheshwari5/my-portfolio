@@ -93,11 +93,7 @@ const certifications = [
 ];
 
 const Section = styled.section`
-  margin-top: 0px;
-  margin-left: 250px;
-  @media (max-width: 900px) {
-    margin-left: 0;
-  }
+  margin-x: 0 auto;
 `;
 
 
@@ -113,7 +109,7 @@ const Tile = styled.a`
   display: flex;
   align-items: center;
   background: rgba(23, 42, 69, 0.7);
-  border-radius: 14px;
+  border-radius: 4px;
   box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10);
   padding: 16px 20px;
   transition: box-shadow 0.2s, transform 0.2s;
@@ -121,11 +117,9 @@ const Tile = styled.a`
   border: none;
   position: relative;
   min-width: 0;
-  max-width: 550px;
   width: 100%;
   margin: 0;
   &:hover, &:focus {
-    box-shadow: 0 8px 32px 0 rgba(0,255,163,0.15), 0 4px 24px 0 rgba(0,0,0,0.12);
     transform: translateY(-3px) scale(1.02);
     outline: none;
   }
@@ -168,10 +162,7 @@ const Tile = styled.a`
     min-width: 0;
     word-break: break-word;
   }
-  .cert-title-text {
-    text-decoration: underline;
-    text-underline-offset: 3px;
-  }
+
   .cert-external {
     font-size: 1em;
     color: var(--green);

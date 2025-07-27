@@ -1,16 +1,10 @@
 ---
-date: '2024-06-02'
+date: '2025-04'
 title: 'Handwritten Mathematical Equation Recognition'
 github: ''
-external: ''
+# external: ''
 tech:
-  - Python
-  - PyTorch
-  - CNN
-  - GRU with Attention and Beam Search
-  - OpenCV
-  - NumPy
-  - Pandas
+  - Python, CNN, GRU with Attention and Beam Search, OpenCV, NumPy, Pandas
 company: 'College'
 showInProjects: true
 ---

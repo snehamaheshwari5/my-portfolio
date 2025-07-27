@@ -3,7 +3,7 @@ date: '2025-02-01'
 title: 'Vice President'
 company: 'Placement Cell, NSOMASA'
 location: ''
-range: 'July 2024 - Present'
+range: 'Jul 2024 - PRESENT'
 url: ''
 ---
 

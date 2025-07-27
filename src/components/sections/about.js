@@ -213,10 +213,10 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi, I'm Sneha — an MSc. Student at NSOMASA, NMIMS, Mumbai{' '}
-              I ask a lot of questions — the kind that dig beneath the surface and chase patterns hiding in plain sight. 
+              Hi, I'm Sneha, an MSc. Student at NSOMASA, NMIMS, Mumbai{' '}
+              I ask a lot of questions, the kind that dig beneath the surface and chase patterns hiding in plain sight. 
               Numbers, to me, aren’t just values; they’re stories waiting to be told, decisions waiting to be made smarter. 
-              I’m drawn to problems that don’t have easy answers, and I love the process of breaking them down — through data, 
+              I’m drawn to problems that don’t have easy answers, and I love the process of breaking them down through data, 
               through logic, and sometimes through sheer persistence. Whether I’m building a model, or shaping a narrative, 
               I’m always looking for the intersection where curiosity meets impact.
             </p>
@@ -233,12 +233,11 @@ const About = () => {
               focus on building solutions that are both analytically robust and relevant to real-world contexts.
             </p>
 
-            <p>Here are the technologies I've been working with:</p>
           </div>
 
           <div className="skills-container">
             <div>
-              <h3 className="skills-category">Languages</h3>
+              <h3 className="skills-category">Tech Stack</h3>
               <div className="chip-list">
                 {skills.languages.map(lang => (
                   <span className="chip" key={lang}>{lang}</span>

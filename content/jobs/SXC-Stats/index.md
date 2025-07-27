@@ -3,7 +3,7 @@ date: '2019-02-01'
 title: 'Class Representative'
 company: 'Dept. of Statistics, SXC'
 location: ''
-range: '2021-2022'
+range: 'Sept 2021 - Sept 2022'
 url: ''
 ---
 

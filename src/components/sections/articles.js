@@ -11,7 +11,7 @@ const Section = styled.section`
 const ArticlesWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 20px;
   @media (max-width: 900px) {
     flex-direction: column;
     gap: 32px;
@@ -21,20 +21,27 @@ const ArticlesWrapper = styled.div`
 const ArticleCard = styled.div`
   background: var(--navy);
   border-radius: var(--border-radius);
-  padding: 28px 32px;
+  padding: 28px 20px;
   box-shadow: 0 4px 24px rgba(0,0,0,0.08);
   border: 1.5px solid var(--lightest-navy);
   width: 100%;
   box-sizing: border-box;
+  transition: border-color 0.2s, background 0.2s;
   @media (max-width: 600px) {
     padding: 20px 14px;
+  }
+  a:hover & {
+    background: var(--light-navy);
+  }
+  a:hover & .arrow {
+    transform: translate(6px, -6px);
   }
 `;
 
 const Heading = styled.h3`
   color: var(--green);
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 12px;
 `;
 
@@ -76,15 +83,21 @@ const Articles = () => {
       <h2 className="numbered-heading">Articles</h2>
       <ArticlesWrapper>
         {articles.map(article => (
-          <ArticleCard key={article.title}>
-            <Heading>
-              <a href={article.url} target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
-                <span style={{ textDecoration: 'underline', textUnderlineOffset: 3 }}>{article.title}</span>
-                <span style={{ textDecoration: 'none' }} aria-label="external link" title="View article">&#8599;</span>
-              </a>
-            </Heading>
-            <Description>{article.description}</Description>
-          </ArticleCard>
+          <a
+            key={article.title}
+            href={article.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: 'inherit', textDecoration: 'none', width: '100%' }}
+          >
+            <ArticleCard>
+              <Heading style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
+                <span style={{ textDecoration: 'none' }}>{article.title}</span>
+                <span className="arrow" style={{ textDecoration: 'none', display: 'inline-block', transition: 'transform 0.2s' }} aria-label="external link" title="View article">&#8599;</span>
+              </Heading>
+              <Description>{article.description}</Description>
+            </ArticleCard>
+          </a>
         ))}
       </ArticlesWrapper>
     </Section>

@@ -1,16 +1,11 @@
 ---
-date: '2024-06-01'
-title: 'Sortly'
+date: '2025-01'
+title: 'Hospital Readmission Prediction'
 github: ''
-external: 'https://www.sortly.com/'
 tech:
-  - React
-  - Redux
-  - Styled Components
-  - Jira
-  - Bitbucket
-company: 'GeekyAnts'
+- Python, Scikit-learn, PCA, Chi-Square Test, VIF, GridSearchCV, RandomizedSearchCV, Pandas, Matplotlib
+company: 'Hackathon (Johnson and Johnson)'
 showInProjects: true
 ---
 
-Worked on a React-based application with state management and styled components, ensuring high-quality code practices.
+Built a model to predict hospital readmission in diabetic patients, analyzing HbA1c levels and medication changes. Used KNN and Random Forest for imputation and achieved 95% accuracy after tuning with RandomizedSearchCV.

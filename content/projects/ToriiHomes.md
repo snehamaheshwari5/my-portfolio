@@ -1,18 +1,12 @@
 ---
-date: '2023-09-01'
-title: 'Torii Homes'
+date: '2024-06'
+title: 'Airplane Price Prediction'
 github: ''
-external: 'https://www.toriihomes.com/'
 tech:
-  - NestJS
-  - React Native
-  - Node.js
-  - Knex
-  - Material UI
-  - NativeBase
-  - Redux
-company: 'GeekyAnts'
+  - Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, PCA, Random Forest Regressor, Decision Tree, Linear Regression
+company: 'Personal'
 showInProjects: true
 ---
 
-Built a full-stack platform for real estate, featuring dynamic UIs and consistent state management across web and mobile.
+Developed a machine learning model on 12,377 aircraft records using PCA and feature engineering. The Random Forest model achieved MAE $17.9M, RMSE $34.6M, and R² 0.98, effectively predicting prices and identifying key cost drivers.
+

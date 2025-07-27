@@ -3,7 +3,7 @@ date: '2021-10-01'
 title: 'Finance Head'
 company: 'Science Association, SXC'
 location: ''
-range: 'April 2023 - April 2024'
+range: 'Apr 2023 - Apr 2024'
 url: ''
 ---
 

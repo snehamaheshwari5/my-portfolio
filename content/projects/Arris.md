@@ -1,16 +1,12 @@
 ---
-date: '2024-04-18'
-title: 'Arris'
-github: 'https://github.com/aryankush25/arris'
-external: ''
+date: '2024-10'
+title: 'Time Series Analysis of GISTEMP and GCAG Temperature Anomalies'
+github: ''
 tech:
-  - Python
-  - Reflex
-  - Alembic
-  - Shopify API
-  - OpenAI
+  - R, dplyr, ggplot2, Forecast, ARIMA, Time Series Decomposition, Data preprocessing
 company: 'Personal'
 showInProjects: true
 ---
 
-AI-powered Reflex-based dashboard for generating and managing pages in Shopify stores. Provides a user-friendly interface for store owners to streamline their operations.
+Performed analysis on GISTEMP and GCAG datasets using R, including data cleaning, trend visualization, and ARIMA modeling. Forecasted temperature anomalies over 20 years, revealing long-term warming trends linked to climate change.
+

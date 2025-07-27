@@ -6,23 +6,23 @@ import styled from 'styled-components';
 
 const educationList = [
   {
-    year: '2024-2026',
+    year: '2024 - Present',
     degree: 'MSc. Statistics and Data Science',
     institution: 'Nilkamal School of Mathematics, Applied Statistics and Analytics, Mumbai',
   },
   {
-    year: '2021-2024',
+    year: '2021 - 2024',
     degree: 'BSc. Statistics Hons.',
     institution: 'St. Xavier\'s College (Autonomous), Kolkata',
   },
   {
-    year: '2020-2021',
+    year: '2020 - 2021',
     degree: 'Senior Secondary (XII)',
     institution: 'Bal Bhavan Public School, Delhi',
   },
   {
-    year: '2018-2019',
-    degree: 'Secondary (X)',
+    year: '2018 - 2019',
+    degree: 'Senior Secondary (X)',
     institution: 'Bal Bhavan Public School, Delhi',
   },
 ];
@@ -49,7 +49,7 @@ const ListItem = styled.li`
   position: relative;
   padding: 0 0 0 24px;
   margin: 0;
-  border-left: 3px solid var(--green);
+  border-left: 3px solid var(--lightest-navy);
   min-height: 64px;
   transition: border-color 0.2s;
   background: none;
@@ -57,21 +57,19 @@ const ListItem = styled.li`
   flex-direction: column;
   justify-content: center;
   &:hover {
-    border-left: 3px solid var(--lightest-navy);
+    border-left: 3px solid var(--green);
   }
-  /* Removed the custom dot */
   .edu-year {
-    color: var(--green);
+    color: var(--light-slate);
     font-size: 1.02rem;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 2px;
     display: block;
     letter-spacing: 0.5px;
   }
   .edu-degree {
-    color: #CCD6F6;
+    color: var(--green);
     font-size: 1.18rem;
-    font-weight: 700;
     margin-bottom: 2px;
     text-decoration: none;
     display: block;
@@ -83,12 +81,7 @@ const ListItem = styled.li`
     font-weight: 500;
     margin-bottom: 2px;
     display: block;
-  }
-  .edu-desc {
-    color: var(--slate);
-    font-size: 0.98rem;
-    margin-bottom: 0;
-    display: block;
+    font-style: italic;
   }
 `;
 

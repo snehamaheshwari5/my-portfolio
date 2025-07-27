@@ -3,7 +3,7 @@ date: '2022'
 title: 'Editor-In-Chief'
 company: 'Dept. of Statistics, SXC'
 location: 'New Delhi, India'
-range: 'April 2023 - April 2024'
+range: 'Apr 2023 - Apr 2024'
 url: ''
 ---
 
