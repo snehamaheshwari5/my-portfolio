@@ -182,6 +182,7 @@ const Projects = () => {
               tech
               github
               external
+              company
             }
             html
           }
@@ -212,8 +213,11 @@ const Projects = () => {
   const projectsToShow = showMore ? projects : firstSix;
 
   const projectInner = node => {
+
     const { frontmatter, html } = node;
-    const { github, external, title, tech } = frontmatter;
+    const { github, external, title, tech, company } = frontmatter;
+
+    console.log('Project:', title, 'Company:', company);
 
     return (
       <div className="project-inner">
@@ -248,6 +252,11 @@ const Projects = () => {
           </h3>
 
           <div className="project-description" dangerouslySetInnerHTML={{ __html: html }} />
+          {company && (
+            <div className="project-company" style={{ fontSize: '15px', marginTop: '8px' }}>
+             Use Case: {company}
+            </div>
+          )}
         </header>
 
         <footer>
@@ -265,11 +274,7 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
-
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
-      </Link>
+      <h2 ref={revealTitle}>Noteworthy Projects</h2>
 
       <ul className="projects-grid">
         {prefersReducedMotion ? (

@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://aryankush25.com/sitemap.xml
-Host: https://aryankush25.com

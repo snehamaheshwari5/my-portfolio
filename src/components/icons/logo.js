@@ -13,10 +13,19 @@ const IconLogo = () => (
           strokeLinejoin="round"
           points="39 0 0 22 0 67 39 90 78 68 78 23"
         />
-        <path
-          d="M41.5,30.3 L51.7,61 L45.7,61 L43.45,53.65 L32.05,53.65 L29.8,61 L24.1,61 L34.3,30.3 L41.5,30.3 Z M42.1,48.95 L37.75,35.5 L33.4,48.95 L42.1,48.95 Z"
+        {/* Geometric S letter, centered in the hexagon */}
+        <text
+          x="39"
+          y="54"
+          textAnchor="middle"
+          fontSize="32"
+          fontFamily="'Montserrat', 'Arial', sans-serif"
           fill="currentColor"
-        />
+          fontWeight="bold"
+          letterSpacing="2"
+        >
+          S
+        </text>
       </g>
     </g>
   </svg>

@@ -1,13 +1,15 @@
 ---
 date: '2025-02-01'
-title: 'Senior Software Engineer'
-company: 'Thoughtworks'
-location: 'Bangalore, India'
-range: 'February 2025 - Present'
-url: 'https://www.thoughtworks.com/'
+title: 'Vice President'
+company: 'Placement Cell, NSOMASA'
+location: ''
+range: 'July 2024 - Present'
+url: ''
 ---
 
-- Thoughtworks is a global leader in tech, driving innovation through strategic design and engineering
-- Increased application performance by 40% through optimizing backend services and algorithms
-- Oversaw development of 15 microservices, each handling over 200,000 transactions/month
-- Drove down bugs by 30% in production releases by automating end-to-end testing protocols
+
+- Led strategic initiatives as Vice President to enhance placement opportunities within the department.
+
+- Collaborated with recruiters and faculty to organize recruitment drives and build industry connections.
+
+- Mentored students on career pathways and ensured alignment of placement activities with evolving industry expectations.

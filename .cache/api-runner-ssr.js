@@ -17,7 +17,7 @@ var plugins = [{
     },{
       name: 'gatsby-plugin-manifest',
       plugin: require('/Users/snehamaheshwari/my-portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Sneha Maheshwari","short_name":"Sneha Maheshwari","start_url":"/","background_color":"#020c1b","theme_color":"#0a192f","display":"minimal-ui","icon":"src/images/logo.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"0563185f8b703453492d5335ff58f298"},
+      options: {"plugins":[],"name":"Sneha Maheshwari","short_name":"Sneha Maheshwari","start_url":"/","background_color":"#020c1b","theme_color":"#0a192f","display":"minimal-ui","icon":"src/images/favicons/favicon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"95e3af9e3db4ee734db1cd757f9f1568"},
     },{
       name: 'gatsby-plugin-offline',
       plugin: require('/Users/snehamaheshwari/my-portfolio/node_modules/gatsby-plugin-offline/gatsby-ssr'),

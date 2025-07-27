@@ -5,9 +5,8 @@ module.exports = {
     title: 'Sneha Maheshwari',
     description:
       'Sneha Maheshwari is a Technical Lead with 5+ years of experience in software development, specializing in building scalable and innovative solutions.',
-    siteUrl: 'https://aryankush25.com', // No trailing slash allowed!
+    siteUrl: 'https://xyz.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@aryankush25',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,7 +25,7 @@ module.exports = {
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: 'src/images/logo.png',
+        icon: 'src/images/favicons/favicon.png',
       },
     },
     `gatsby-plugin-offline`,

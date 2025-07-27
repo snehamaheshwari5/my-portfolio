@@ -1,17 +1,17 @@
 ---
 date: '2024-06-02'
-title: 'Ory Identity'
-github: 'https://github.com/aryankush25/ory-identity'
+title: 'Handwritten Mathematical Equation Recognition'
+github: ''
 external: ''
 tech:
-  - Next.js
-  - TypeScript
-  - Docker
-  - ORY Hydra
-  - ORY Kratos
-  - Tailwind CSS
-company: 'Personal'
+  - Python
+  - PyTorch
+  - CNN
+  - GRU with Attention and Beam Search
+  - OpenCV
+  - NumPy
+  - Pandas
+company: 'College'
 showInProjects: true
 ---
-
-A comprehensive identity management solution that includes configurations and code for setting up and running ORY Hydra, ORY Kratos, and a Next.js application with ORY UI.
+Cleaned and processed the CROHME 2023 dataset by converting InkML files to PNG with LaTeX annotations. Built a Watch (CNN), Attend, and Parse (GRU with Beam Search) encoder–decoder model, achieving 46% ExpRate and 20% WER, outperforming SOTA baselines.

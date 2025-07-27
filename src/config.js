@@ -1,22 +1,14 @@
 module.exports = {
-  email: 'aryankush025@gmail.com',
+  email: 'maheshwarisneha00@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/aryankush25',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://x.com/aryankush25',
+      url: 'https://github.com/snehamaheshwari5',
     },
     {
       name: 'Linkedin',
-      url: 'https://linkedin.com/in/aryankush25/',
-    },
-    {
-      name: 'Medium',
-      url: 'https://medium.com/@aryankush25',
+      url: 'https://linkedin.com/in/snehamaheshwari05/',
     },
   ],
 
@@ -26,12 +18,12 @@ module.exports = {
       url: '/#about',
     },
     {
-      name: 'Experience',
-      url: '/#jobs',
+      name: 'Education',
+      url: '/#education',
     },
     {
-      name: 'Work',
-      url: '/#projects',
+      name: 'POR',
+      url: '/#responsibility',
     },
     {
       name: 'Contact',

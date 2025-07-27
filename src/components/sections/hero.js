@@ -33,11 +33,17 @@ const StyledHeroSection = styled.section`
     margin-top: 5px;
     color: var(--slate);
     line-height: 0.9;
+    font-size: 36px
   }
 
   p {
     margin: 20px 0 0;
     max-width: 540px;
+  }
+
+  b {
+    color: #fff;
+    font-weight: bold;
   }
 
   .email-link {
@@ -61,28 +67,17 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Sneha Maheshwari.</h2>;
-  const three = <h3 className="big-heading">I build innovative software solutions.</h3>;
+  const three = <h3 className="big-heading">I am a Statistics & Data Science aspirant</h3>;
   const four = (
     <>
       <p>
-        I'm a Senior Software Engineer at{' '}
-        <a href="https://www.thoughtworks.com/" target="_blank" rel="noreferrer">
-          Thoughtworks
-        </a>{' '}
-        and former Technical Lead at{' '}
-        <a href="https://gluelabs.com/" target="_blank" rel="noreferrer">
-          Glue Labs
-        </a>
-        , with 6+ years of experience in software development, specializing in building scalable and
-        innovative solutions.
+        I’m a postgraduate student in <b>Statistics and Data Science</b> at <b>Nilkamal School of Mathematics, Applied Statistics and Analytics, NMIMS</b>, with an academic background in Statistics from <b>St. Xavier’s College, Kolkata</b>.
       </p>
       <p>
-        Currently, I'm building{' '}
-        <a href="https://dashgen.in/" target="_blank" rel="noreferrer">
-          Dashgen
-        </a>{' '}
-        — a unified platform for multiple AI models including OpenAI, Anthropic, Google Gemini,
-        Mistral, xAI and DeepSeek.
+        I’ve worked on projects in healthcare analytics, socio-economic modeling, climate data analysis, astrophysical forecasting, and handwritten mathematical expression recognition.
+      </p>
+      <p>
+        My work involves applying statistical methods, <b>machine learning, deep learning and time series analysis</b> to solve data-driven problems across varied domains.
       </p>
     </>
   );
@@ -90,13 +85,10 @@ const Hero = () => {
     <div style={{ display: 'flex', gap: '20px' }}>
       <a
         className="email-link"
-        href="mailto:aryankush025@gmail.com"
+        href="mailto:maheshwarisneha00@gmail.com"
         target="_blank"
         rel="noreferrer">
         Get In Touch
-      </a>
-      <a className="email-link" href="https://v1.aryankush25.com/" target="_blank" rel="noreferrer">
-        View New Portfolio
       </a>
     </div>
   );

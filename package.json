@@ -2,12 +2,12 @@
   "name": "v4",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Sneha Maheshwari <aryankush025@gmail.com>",
+  "author": "Sneha Maheshwari <maheshwarisneha00@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aryankush25/Portfolio"
+    "url": "https://github.com/snehamaheshwari05/my-portfolio"
   },
-  "homepage": "https://aryankush25.com",
+  "homepage": "https://xyz.com",
   "keywords": [
     "gatsby"
   ],

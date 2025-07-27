@@ -20,9 +20,8 @@ const StyledAboutSection = styled.section`
 `;
 const StyledText = styled.div`
   .skills-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    display: flex;
+    gap: 20px;
     margin-top: 15px;
   }
 
@@ -34,21 +33,32 @@ const StyledText = styled.div`
     margin-bottom: 8px;
   }
 
-  .skills-text {
+  .chip-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 18px;
+    margin-bottom: 15px;
+  }
+
+  .chip {
+    background: rgba(100, 255, 218, 0.07);
+    color: var(--green);
     font-family: var(--font-mono);
-    font-size: var(--fz-xs);
-    color: var(--slate);
-    line-height: 1.5;
-    margin: 0 0 15px 0;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: 22px;
+    padding: 8px 22px;
+    display: inline-block;
+    border: none;
+    letter-spacing: 0.01em;
+    transition: background 0.2s;
+    box-shadow: none;
+    cursor: default;
   }
 
   @media (max-width: 768px) {
     .skills-container {
       grid-template-columns: 1fr;
-    }
-
-    .skills-text {
-      font-size: var(--fz-sm);
     }
   }
 `;
@@ -88,7 +98,6 @@ const StyledPic = styled.div`
       position: relative;
       border-radius: var(--border-radius);
       mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
       transition: var(--transition);
     }
 
@@ -133,7 +142,7 @@ const About = () => {
 
   // Core skills by category
   const skills = {
-    languages: ['JavaScript', 'TypeScript', 'Python', 'C++'],
+    languages: ['Python', 'R', 'SQL', 'Microsoft Excel', 'Minitab', 'Power BI'],
     backend: [
       'Node.js',
       'Nest.js',
@@ -204,33 +213,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi, I'm Aryan — a Senior Software Engineer at{' '}
-              <a href="https://www.thoughtworks.com/">Thoughtworks</a> with 6+ years specializing in
-              backend and full-stack development. I architect distributed systems and microservices
-              using JavaScript, TypeScript, Python, React, Node.js and React Native with a focus on
-              scalability and performance.
+              Hi, I'm Sneha — an MSc. Student at NSOMASA, NMIMS, Mumbai{' '}
+              I ask a lot of questions — the kind that dig beneath the surface and chase patterns hiding in plain sight. 
+              Numbers, to me, aren’t just values; they’re stories waiting to be told, decisions waiting to be made smarter. 
+              I’m drawn to problems that don’t have easy answers, and I love the process of breaking them down — through data, 
+              through logic, and sometimes through sheer persistence. Whether I’m building a model, or shaping a narrative, 
+              I’m always looking for the intersection where curiosity meets impact.
             </p>
 
             <p>
-              As a Technical Lead at <a href="https://gluelabs.com/">Glue Labs</a>, where I lead
-              product development and mentor teams. I've had the opportunity to work on various
-              exciting projects including <a href="https://fifo.im">FIFO</a>,{' '}
-              <a href="https://glue.is">Glue</a>, <a href="https://id.glue.is">Glue Identity</a>,
-              and several other innovative solutions.
+             My projects reflect this mindset — from developing a handwritten mathematical expression recognition system to analyzing the impact of 
+             HbA1c levels on hospital readmissions using predictive imputation and statistical testing.
+             I’ve also modeled global income inequality, forecasted climate anomalies, built classifiers for black hole detection, and studied the emotional impact of music using behavioral data.
             </p>
 
             <p>
-              I'm also creator and incredibly excited to present{' '}
-              <a href="https://dashgen.in">Dashgen</a> - an AI-powered platform that I'm building to
-              revolutionize how an individual interact with LLMs. It provides a unified interface
-              for working with various AI models like OpenAI, Anthropic, Google Gemini, Mistral, xAI
-              and DeepSeek. I'd love for you to check it out!
-            </p>
-
-            <p>
-              My focus is on building high-performance applications with clean, maintainable code.
-              I'm passionate about user experience and believe in creating products that not only
-              work well but are also enjoyable to use.
+              I bring a strong foundation in statistics and data science, with practical experience in Python, R, and SQL, as well as tools 
+              like Excel and Minitab. My work spans data analysis, predictive modeling, time series forecasting, and deep learning — with a 
+              focus on building solutions that are both analytically robust and relevant to real-world contexts.
             </p>
 
             <p>Here are the technologies I've been working with:</p>
@@ -239,22 +239,11 @@ const About = () => {
           <div className="skills-container">
             <div>
               <h3 className="skills-category">Languages</h3>
-              <p className="skills-text">{skills.languages.join(', ')}</p>
-            </div>
-
-            <div>
-              <h3 className="skills-category">Backend</h3>
-              <p className="skills-text">{skills.backend.join(', ')}</p>
-            </div>
-
-            <div>
-              <h3 className="skills-category">Tools & DevOps</h3>
-              <p className="skills-text">{skills.devops.join(', ')}</p>
-            </div>
-
-            <div>
-              <h3 className="skills-category">Frontend</h3>
-              <p className="skills-text">{skills.frontend.join(', ')}</p>
+              <div className="chip-list">
+                {skills.languages.map(lang => (
+                  <span className="chip" key={lang}>{lang}</span>
+                ))}
+              </div>
             </div>
           </div>
         </StyledText>
@@ -263,7 +252,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/Aryan_new.JPG"
+              src="../../images/my_photo.JPG"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

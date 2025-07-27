@@ -1,14 +1,14 @@
 ---
 date: '2021-10-01'
-title: 'Senior Software Development Engineer'
-company: 'Glue Labs'
-location: 'India (Remote)'
-range: 'October 2021 - January 2022'
-url: 'https://gluelabs.com/'
+title: 'Finance Head'
+company: 'Science Association, SXC'
+location: ''
+range: 'April 2023 - April 2024'
+url: ''
 ---
 
-- Built a Voice Calling App using React Native, Firebase, and Agora, enabling users to create/join voice chat rooms
-- Spearheaded development of FIFO.im and Glue Mobile App from scratch using React, Node.js, and Flutter, delivering scalable and innovative solutions
-- Led cross-functional teams, designed UX flows, and defined product roadmaps to ensure timely delivery and user satisfaction
-- Refactored codebases with TypeScript and ESLint, improving code quality, security, and maintainability
-- Streamlined developer workflows through comprehensive documentation for seamless collaboration
+- Managed budgeting and financial operations for the Science Association during the 2023–2024 academic year.
+
+- Oversaw fund allocation for academic events, fests, and workshops, ensuring efficient and impactful use of resources.
+
+- Secured 10+ sponsorships by engaging with external partners to financially support departmental initiatives and events.
