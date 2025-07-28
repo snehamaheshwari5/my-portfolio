@@ -7,7 +7,7 @@ range: 'Apr 2023 - Apr 2024'
 url: ''
 ---
 
-- Headed the editorial team responsible for curating and publishing the department’s annual magazine **Prakarsho VOL XVI**.
+- Headed the editorial team responsible for curating and publishing the department’s annual magazine **Prakarsho VOL XV**.
 
 - Functioned previously as the Associate Editor for the magazine. 
 
