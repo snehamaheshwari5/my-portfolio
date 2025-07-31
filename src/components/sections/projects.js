@@ -181,7 +181,7 @@ const Projects = () => {
               title
               tech
               github
-              external
+              # external (removed, not present in markdown frontmatter)
               company
             }
             html
@@ -215,9 +215,7 @@ const Projects = () => {
   const projectInner = node => {
 
     const { frontmatter, html } = node;
-    const { github, external, title, tech, company } = frontmatter;
-
-    console.log('Project:', title, 'Company:', company);
+    const { github, title, tech, company } = frontmatter;
 
     return (
       <div className="project-inner">
@@ -232,23 +230,11 @@ const Projects = () => {
                   <Icon name="GitHub" />
                 </a>
               )}
-              {external && (
-                <a
-                  href={external}
-                  aria-label="External Link"
-                  className="external"
-                  target="_blank"
-                  rel="noreferrer">
-                  <Icon name="External" />
-                </a>
-              )}
             </div>
           </div>
 
           <h3 className="project-title">
-            <a href={external} target="_blank" rel="noreferrer">
-              {title}
-            </a>
+            {title}
           </h3>
 
           <div className="project-description" dangerouslySetInnerHTML={{ __html: html }} />

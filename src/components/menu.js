@@ -266,7 +266,12 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="/resume.pdf" className="resume-link">
+            <a
+              href="https://drive.google.com/file/d/1RyWlWjWSFCaGwun3RLuMrN6NgBBIEvAR/view?usp=sharing"
+              className="resume-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Resume
             </a>
           </nav>
